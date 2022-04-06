@@ -1,0 +1,1 @@
+export { sinhVienServ } from "./axios";
