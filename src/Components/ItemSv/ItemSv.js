@@ -32,7 +32,11 @@ function ItemSv({ value }) {
   };
 
   return (
-    <tr className={`${deleting && "opacity-50"}`}>
+    <tr
+      style={{
+        opacity: `${deleting ? 0.5 : 1}`,
+      }}
+    >
       <th className="fw-normal">{id}</th>
       <th className="fw-normal">{name}</th>
 
